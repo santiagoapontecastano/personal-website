@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F9F6EE;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    color: #1a1a1a;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 80px 40px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.header-group {
+    margin-bottom: 60px;
+}
+
+.header-group:last-child {
+    margin-bottom: -10px;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+.header-regular,
+.subtitle-regular,
+.jump-regular {
+    font-weight: 400;
+}
+
+.header-italic,
+.subtitle-italic,
+.jump-italic {
+    font-weight: 50;
+    font-style: italic;
+}
+
+/* Navigation - 4 across */
+.sections {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-bottom: 80px;
+}
+
+.section-item {
+    text-align: center;
+}
+
+.section-item a {
+    font-size: 24px;
+    color: #1a1a1a;
+}
+
+.section-item a:hover {
+    opacity: 0.7;
+}
+
+.count {
+    font-size: 13px;
+    margin-bottom: 4px;
+    color: #666;
+}
+
+.last-update {
+    font-size: 13px;
+    color: #666;
+    margin-bottom: -25px;
+}
+
+footer {
+    text-align: center;
+    font-size: 13px;
+}
+
+footer p {
+    margin-bottom: 8px;
+}
+
+footer a {
+    color: #1a1a1a;
+    text-decoration: underline;
+}
+
+/* Writing/Content Pages */
+.page-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 60px 40px;
+}
+
+.page-header {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 60px;
+    padding-left: 32px;
+}
+
+.back-link {
+    color: #1a1a1a;
+    text-decoration: none;
+    font-style: italic;
+    font-size: 16px;
+    transition: opacity 0.2s;
+}
+
+.back-link:hover {
+    opacity: 0.6;
+}
+
+.page-header h1 {
+    font-size: 32px;
+    font-weight: 500;
+}
+
+/* Posts List */
+.posts-list {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.year-section {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    gap: 40px;
+}
+
+.year-label {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.posts {
+    display: flex;
+    flex-direction: column;
+}
+
+.post-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 0;
+    text-decoration: none;
+    color: #1a1a1a;
+    transition: opacity 0.2s;
+}
+
+.post-item:hover {
+    opacity: 0.6;
+}
+
+.post-title {
+
+}
+
+.post-date {
+    color: #666;
+    font-size: 14px;
+}
+
+/* Dividers */
+.post-divider {
+    border: none;
+    border-top: 1px solid #d0d0d0;
+    margin: 0;
+}
+
+.month-divider {
+    border: none;
+    border-top: 3px solid #666;
+    margin: 8px 0;
+}
